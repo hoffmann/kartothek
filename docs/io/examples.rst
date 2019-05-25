@@ -72,15 +72,15 @@ Write
         {
             "label": "FirstPartition",
             "data": [
-                ("FirstCategory", pd.DataFrame()),
-                ("SecondCategory", pd.DataFrame())
+                ("FirstTable", pd.DataFrame()),
+                ("SecondTable", pd.DataFrame())
             ]
         },
         {
             "label": "SecondPartition",
             "data": [
-                ("FirstCategory", pd.DataFrame()),
-                ("SecondCategory", pd.DataFrame())
+                ("FirstTable", pd.DataFrame()),
+                ("SecondTable", pd.DataFrame())
             ]
         }
     ]
@@ -115,13 +115,13 @@ Read
     for d1, d2 in zip(list_of_partitions, [
                             # FirstPartition
                             {
-                                "FirstCategory": pd.DataFrame(),
-                                "SecondCategory": pd.DataFrame()
+                                "FirstTable": pd.DataFrame(),
+                                "SecondTable": pd.DataFrame()
                             },
                             # SecondPartition
                             {
-                                "FirstCategory": pd.DataFrame(),
-                                "SecondCategory": pd.DataFrame()
+                                "FirstTable": pd.DataFrame(),
+                                "SecondTable": pd.DataFrame()
                             },
                         ]
     ):
@@ -145,15 +145,15 @@ Write
         {
             "label": "FirstPartition",
             "data": [
-                ("FirstCategory", pd.DataFrame()),
-                ("SecondCategory", pd.DataFrame())
+                ("FirstTable", pd.DataFrame()),
+                ("SecondTable", pd.DataFrame())
             ]
         },
         {
             "label": "SecondPartition",
             "data": [
-                ("FirstCategory", pd.DataFrame()),
-                ("SecondCategory", pd.DataFrame())
+                ("FirstTable", pd.DataFrame()),
+                ("SecondTable", pd.DataFrame())
             ]
         }
     ]
@@ -190,13 +190,13 @@ Read
     for d1, d2 in zip(list_of_partitions, [
                             # FirstPartition
                             {
-                                "FirstCategory": pd.DataFrame(),
-                                "SecondCategory": pd.DataFrame()
+                                "FirstTable": pd.DataFrame(),
+                                "SecondTable": pd.DataFrame()
                             },
                             # SecondPartition
                             {
-                                "FirstCategory": pd.DataFrame(),
-                                "SecondCategory": pd.DataFrame()
+                                "FirstTable": pd.DataFrame(),
+                                "SecondTable": pd.DataFrame()
                             },
                         ]
     ):
@@ -220,15 +220,15 @@ Write
         {
             "label": "FirstPartition",
             "data": [
-                ("FirstCategory", pd.DataFrame()),
-                ("SecondCategory", pd.DataFrame())
+                ("FirstTable", pd.DataFrame()),
+                ("SecondTable", pd.DataFrame())
             ]
         },
         {
             "label": "SecondPartition",
             "data": [
-                ("FirstCategory", pd.DataFrame()),
-                ("SecondCategory", pd.DataFrame())
+                ("FirstTable", pd.DataFrame()),
+                ("SecondTable", pd.DataFrame())
             ]
         }
     ]
